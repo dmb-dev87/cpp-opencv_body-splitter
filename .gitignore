@@ -10,6 +10,12 @@
 *.lo
 *.o
 *.obj
+*.iobj
+*.ipdb
+*.pdb
+*.tlog
+*.lastbuildstate
+*.idb
 
 # Precompiled Headers
 *.gch
