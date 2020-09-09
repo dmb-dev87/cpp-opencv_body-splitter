@@ -1,0 +1,539 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="CMD-Debug|Win32">
+      <Configuration>CMD-Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="CMD-Debug|x64">
+      <Configuration>CMD-Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="CMD-Release|Win32">
+      <Configuration>CMD-Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="CMD-Release|x64">
+      <Configuration>CMD-Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="GUI-Debug|Win32">
+      <Configuration>GUI-Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="GUI-Release|Win32">
+      <Configuration>GUI-Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="GUI-Debug|x64">
+      <Configuration>GUI-Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="GUI-Release|x64">
+      <Configuration>GUI-Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{608EC55D-461B-494B-A403-586CF3CE96C6}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>BodySplitter</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='GUI-Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='GUI-Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CMD-Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CMD-Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='GUI-Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='GUI-Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CMD-Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CMD-Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='GUI-Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='GUI-Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='CMD-Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='CMD-Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='GUI-Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='GUI-Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='CMD-Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='CMD-Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='GUI-Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='GUI-Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='GUI-Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CMD-Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CMD-Debug|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='GUI-Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>$(ProjectName) - GUI</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CMD-Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CMD-Debug|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='GUI-Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;WINVER=0x0500;__WXMSW__;_DEBUG;_WINDOWS;wxUSE_GUI=1;_UNICODE;__WXDEBUG__;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\dev\glew-2.0.0\include;C:\dev\lemon-1.3.1\build;C:\dev\lemon-1.3.1;C:\dev\spdlog-0.10.0\include;C:\dev\glm;C:\dev\boost_1_61_0;C:\opencv\build\include;C:\assimp-3.2\assimp-3.2\include;C:\wxWidgets-3.1.0\include\msvc;C:\wxWidgets-3.1.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <SDLCheck>false</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\dev\glew-2.0.0\lib\Release\Win32;C:\dev\lemon-1.3.1\builddebug\lemon\Debug;C:\opencv\robbuild3\lib\Debug;C:\assimp-3.2\assimp-3.2\staticbuild\code\Debug;C:\wxWidgets-3.1.0\lib\vc_lib;C:\dev\boost_1_61_0\lib32-msvc-14.0;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>lemon.lib;opencv_imgcodecs310d.lib;opencv_photo310d.lib;opencv_core310d.lib;opencv_imgproc310d.lib;wxmsw31ud_core.lib;wxbase31ud.lib;comctl32.lib;rpcrt4.lib;winmm.lib;advapi32.lib;wsock32.lib;assimp-vc130-mtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <EntryPointSymbol>
+      </EntryPointSymbol>
+      <NoEntryPoint>false</NoEntryPoint>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='GUI-Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CRT_SECURE_NO_WARNINGS;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>c:\dev\zlib-1.2.11;c:\dev\glew-2.0.0\include;c:\dev\lemon-1.3.1\build;c:\dev\spdlog-0.10.0\include;c:\dev\lemon-1.3.1;c:\dev\glm;c:\dev\boost_1_61_0;c:\dev\opencv\build\include;c:\dev\assimp-3.2\include;c:\dev\wxWidgets-3.1.0\include\msvc;c:\dev\wxWidgets-3.1.0\include;c:\dev\freeglut-3.0.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <SDLCheck>false</SDLCheck>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>c:\dev\zlib-1.2.11\contrib\vstudio\vc14\x64\ZlibStatRelease;c:\dev\lemon-1.3.1\lemon\debug;c:\dev\opencv\build64dll\lib\Release;c:\dev\wxWidgets-3.1.0\lib\vc_x64_lib;c:\dev\assimp-3.2\lib\Release;c:\dev\boost_1_61_0\stage\x64\lib;c:\dev\glew-2.0.0\lib\Release\x64;c:\dev\freeglut-3.0.0\lib\x64;C:\dev\opencv\sources\lib\release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>wxmsw31ud_core.lib;wxbase31ud.lib;freeglut.lib;assimp-vc130-mt.lib;lemon.lib;zlibstat.lib;opencv_imgcodecs310.lib;opencv_photo310.lib;opencv_core310.lib;opencv_imgproc310.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='GUI-Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\dev\zlib-1.2.11;C:\dev\glew-2.0.0\include;C:\dev\spdlog-0.10.0\include;C:\dev\lemon-1.3.1\build;C:\dev\lemon-1.3.1;C:\glm;C:\dev\boost_1_61_0;C:\opencv\build\include;C:\assimp-3.2\assimp-3.2\include;C:\wxWidgets-3.1.0\include\msvc;C:\wxWidgets-3.1.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <MinimalRebuild>true</MinimalRebuild>
+      <FloatingPointModel>Fast</FloatingPointModel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glew32.lib;lemon.lib;opencv_imgcodecs310.lib;opencv_photo310.lib;opencv_core310.lib;opencv_imgproc310.lib;opengl32.lib;wxmsw31u_core.lib;wxbase31u.lib;comctl32.lib;rpcrt4.lib;winmm.lib;advapi32.lib;wsock32.lib;assimp-vc130-mt.lib;zlibstat.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\dev\zlib-1.2.11\contrib\vstudio\vc14\x86\ZlibStatDebug;C:\dev\lemon-1.3.1\build\lemon\Release;C:\opencv\robbuild3\lib\Release;C:\assimp-3.2\assimp-3.2\staticbuild\code\Release;C:\wxWidgets-3.1.0\lib\vc_lib;C:\dev\boost_1_61_0\lib32-msvc-14.0;C:\dev\glew-2.0.0\lib\Release\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='CMD-Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\dev\glew-2.0.0\include;C:\dev\spdlog-0.10.0\include;C:\dev\lemon-1.3.1\build;C:\dev\lemon-1.3.1;C:\glm;C:\dev\boost_1_61_0;C:\opencv\build\include;C:\assimp-3.2\assimp-3.2\include;C:\wxWidgets-3.1.0\include\msvc;C:\wxWidgets-3.1.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <MinimalRebuild>true</MinimalRebuild>
+      <FloatingPointModel>Fast</FloatingPointModel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glew32.lib;lemon.lib;opencv_imgcodecs310.lib;opencv_photo310.lib;opencv_core310.lib;opencv_imgproc310.lib;opengl32.lib;wxmsw31u_core.lib;wxbase31u.lib;comctl32.lib;rpcrt4.lib;winmm.lib;advapi32.lib;wsock32.lib;assimp-vc130-mt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\dev\lemon-1.3.1\build\lemon\Release;C:\opencv\robbuild3\lib\Release;C:\assimp-3.2\assimp-3.2\staticbuild\code\Release;C:\wxWidgets-3.1.0\lib\vc_lib;C:\dev\boost_1_61_0\lib32-msvc-14.0;C:\dev\glew-2.0.0\lib\Release\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='CMD-Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\dev\glew-2.0.0\include;C:\dev\spdlog-0.10.0\include;C:\dev\lemon-1.3.1\build;C:\dev\lemon-1.3.1;C:\glm;C:\dev\boost_1_61_0;C:\opencv\build\include;C:\assimp-3.2\assimp-3.2\include;C:\wxWidgets-3.1.0\include\msvc;C:\wxWidgets-3.1.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <MinimalRebuild>true</MinimalRebuild>
+      <FloatingPointModel>Fast</FloatingPointModel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glew32.lib;lemon.lib;opencv_imgcodecs310.lib;opencv_photo310.lib;opencv_core310.lib;opencv_imgproc310.lib;opengl32.lib;wxmsw31u_core.lib;wxbase31u.lib;comctl32.lib;rpcrt4.lib;winmm.lib;advapi32.lib;wsock32.lib;assimp-vc130-mt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\dev\lemon-1.3.1\build\lemon\Release;C:\opencv\robbuild3\lib\Release;C:\assimp-3.2\assimp-3.2\staticbuild\code\Release;C:\wxWidgets-3.1.0\lib\vc_lib;C:\dev\boost_1_61_0\lib32-msvc-14.0;C:\dev\glew-2.0.0\lib\Release\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='GUI-Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CRT_SECURE_NO_WARNINGS;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\dev\zlib-1.2.11;..\..\dev\glew-2.0.0\include;..\..\dev\lemon-1.3.1\build;..\..\dev\spdlog-0.10.0\include;..\..\dev\lemon-1.3.1;..\..\dev\glm;..\..\dev\boost_1_61_0;c:\opencv\build\include;..\..\dev\assimp-3.2\include;..\..\dev\wxWidgets-3.1.0\include\msvc;..\..\dev\wxWidgets-3.1.0\include;..\..\dev\freeglut-3.0.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <SDLCheck>false</SDLCheck>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FloatingPointModel>Precise</FloatingPointModel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\..\dev\zlib-1.2.11\contrib\vstudio\vc14\x64\ZlibStatRelease;..\..\dev\lemon-1.3.1\build64dll\lemon\Release;..\..\opencv\build64dll\lib\Release;..\..\dev\wxWidgets-3.1.0\lib\vc_x64_lib;..\..\dev\assimp-3.2\lib\Release;..\..\dev\boost_1_61_0\stage\x64\lib;..\..\dev\glew-2.0.0\lib\Release\x64;..\..\dev\freeglut-3.0.0\lib\x64;C:\opencv\sources\lib\release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>wxmsw31u_core.lib;wxbase31u.lib;freeglut.lib;assimp-vc130-mt.lib;lemon.lib;zlibstat.lib;opencv_imgcodecs310.lib;opencv_photo310.lib;opencv_core310.lib;opencv_imgproc310.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='CMD-Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions> _CONSOLE;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WINDOWS;WIN32;_WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\dev\wxWidgets-3.1.0\include;C:\dev\wxWidgets-3.1.0\include\msvc;c:\opencv1\build64dll\lib\Release;C:\dev\opencv\binaries\lib\include;C:\dev\opencv;c:\dev\zlib-1.2.11;c:\dev\glew-2.0.0\include;c:\dev\lemon-1.3.1\build;c:\dev\spdlog-0.10.0\include;c:\dev\lemon-1.3.1;c:\dev\glm;c:\dev\boost_1_61_0;c:\dev\opencv\build\include;c:\dev\assimp-3.2\include;c:\dev\freeglut-3.0.0\include;C:\dev\opencv\sources\lib\release;c:\dev\opencv\build64dll\lib\Release\;C:\dev\boost_1_61_0\bin.v2\libs\system\build\msvc-14.0\release\address-model-64\link-static\runtime-link-static\threading-multi\;c:\dev;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <SDLCheck>false</SDLCheck>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <ShowIncludes>false</ShowIncludes>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\DEV\boost_1_61_0\bin.v2\libs\date_time\build\msvc-14.0\release\address-model-64\link-static\runtime-link-static\threading-multi;C:\DEV\boost_1_61_0\bin.v2\libs\regex\build\msvc-14.0\release\address-model-64\link-static\runtime-link-static\threading-multi;C:\DEV\boost_1_61_0\bin.v2\libs\system\build\msvc-14.0\release\address-model-64\link-static\runtime-link-static\threading-multi;C:\DEV\boost_1_61_0\bin.v2\libs\thread\build\msvc-14.0\release\address-model-64\link-static\runtime-link-static\threading-multi;C:\DEV\boost_1_61_0\bin.v2\libs\chrono\build\msvc-14.0\release\address-model-64\link-static\runtime-link-static\threading-multi;C:\DEV\boost_1_61_0\bin.v2\libs\system\build\msvc-14.0\release\address-model-64\link-static\runtime-link-static\threading-multi\;c:\dev\lemon-1.3.1\build64dll\lemon\Release;c:\dev\wxWidgets-3.1.0\lib\vc_x64_lib;c:\dev\assimp-3.2\lib\Release;c:\dev\glew-2.0.0\lib\Release\x64;c:\dev\freeglut-3.0.0\lib\x64;C:\dev\opencv\sources\lib\release;c:\dev\opencv\build64dll\lib\Release\;c:\dev\zlib-1.2.11\contrib\vstudio\vc14\x64\ZlibStatRelease;c:\dev;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opencv_imgcodecs310.lib;opencv_core310.lib;opencv_imgproc310.lib;wxmsw31u_core.lib;wxbase31u.lib;assimp-vc130-mt.lib;lemon.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/VERBOSE:UNUSEDLIBS</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='CMD-Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions> _CONSOLE; &#x1F; _DEBUG; DEBUG;_CRT_SECURE_NO_WARNINGS;_WINDOWS;WIN32;_WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>c:\dev\zlib-1.2.11;c:\dev\glew-2.0.0\include;c:\dev\lemon-1.3.1\build;c:\dev\spdlog-0.10.0\include;c:\dev\lemon-1.3.1;c:\dev\glm;c:\dev\boost_1_61_0;c:\opencv\build\include;c:\dev\assimp-3.2\include;c:\dev\wxWidgets-3.1.0\include\msvc;c:\dev\wxWidgets-3.1.0\include;c:\dev\freeglut-3.0.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <SDLCheck>false</SDLCheck>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>c:\dev\zlib-1.2.11\contrib\vstudio\vc14\x64\ZlibStatRelease;c:\dev\lemon-1.3.1\build64dll\lemon\Release;c:\opencv\build64dll\lib\Release;c:\dev\wxWidgets-3.1.0\lib\vc_x64_lib;c:\dev\assimp-3.2\lib\Release;c:\dev\boost_1_61_0\stage\x64\lib;c:\dev\glew-2.0.0\lib\Release\x64;c:\dev\freeglut-3.0.0\lib\x64;C:\opencv\sources\lib\release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opencv_imgcodecs310.lib;opencv_photo310.lib;opencv_core310.lib;opencv_imgproc310.lib;wxmsw31u_core.lib;wxbase31u.lib;assimp-vc130-mt.lib;lemon.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="iSlicable.cpp" />
+    <ClCompile Include="AABoundingBox.cpp" />
+    <ClCompile Include="AboutDialog.cpp" />
+    <ClCompile Include="AboutDialogOverride.cpp" />
+    <ClCompile Include="CameraControl.cpp" />
+    <ClCompile Include="ClipperLib\RoVaclipper.cpp" />
+    <ClCompile Include="CoasterPrint.cpp" />
+    <ClCompile Include="colour.cpp" />
+    <ClCompile Include="ColourAdjustDialog.cpp" />
+    <ClCompile Include="ColourAdjustWindow.cpp" />
+    <ClCompile Include="colourGrid.cpp" />
+    <ClCompile Include="colourSubstitionWX.cpp" />
+    <ClCompile Include="CompatForm.cpp" />
+    <ClCompile Include="controlPanel.cpp" />
+    <ClCompile Include="defaultSettings.cpp" />
+    <ClCompile Include="EULA.c" />
+    <ClCompile Include="EULADialog.cpp" />
+    <ClCompile Include="EULAOverride.cpp" />
+    <ClCompile Include="gCodeControlWindow.cpp" />
+    <ClCompile Include="Dialogs.cpp" />
+    <ClCompile Include="FilamentUsageCounter.cpp" />
+    <ClCompile Include="GCodeSender.cpp" />
+    <ClCompile Include="GCodeViewPane.cpp" />
+    <ClCompile Include="GCodeVisualizer.cpp" />
+    <ClCompile Include="GCodeVisualizerWX.cpp" />
+    <ClCompile Include="GCodeWriter.cpp" />
+    <ClCompile Include="Geometry.cpp" />
+    <ClCompile Include="GridView.cpp" />
+    <ClCompile Include="iDrawable.cpp" />
+    <ClCompile Include="images\rsimages.c" />
+    <ClCompile Include="images\splashscreen.c" />
+    <ClCompile Include="Infill.cpp" />
+    <ClCompile Include="IslandWriter.cpp" />
+    <ClCompile Include="Layer.cpp" />
+    <ClCompile Include="Line.cpp" />
+    <ClCompile Include="LineToLoopSolver.cpp" />
+    <ClCompile Include="machineControl.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MainFrame.cpp" />
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="minizip\ioapi.c" />
+    <ClCompile Include="minizip\iowin32.c" />
+    <ClCompile Include="minizip\mztools.c" />
+    <ClCompile Include="minizip\unzip.c" />
+    <ClCompile Include="minizip\zip.c" />
+    <ClCompile Include="ModelPropPanel.cpp" />
+    <ClCompile Include="ModelViewPane.cpp" />
+    <ClCompile Include="MotionPlanner.cpp" />
+    <ClCompile Include="MovementWriter.cpp" />
+    <ClCompile Include="newSettings.cpp" />
+    <ClCompile Include="objectControl.cpp" />
+    <ClCompile Include="ObjImporter.cpp" />
+    <ClCompile Include="OpenglExt.cpp" />
+    <ClCompile Include="PaintableTexture.cpp" />
+    <ClCompile Include="PaintViewPane.cpp" />
+    <ClCompile Include="Perimeter.cpp" />
+    <ClCompile Include="PrimeTowerHandler.cpp" />
+    <ClCompile Include="PrintBed.cpp" />
+    <ClCompile Include="PrintBedPackage.cpp" />
+    <ClCompile Include="PrintPathPlanner.cpp" />
+    <ClCompile Include="PrintTimeEstimator.cpp" />
+    <ClCompile Include="PropPanel.cpp" />
+    <ClCompile Include="Rova5Compat.cpp" />
+    <ClCompile Include="RovaSettings.cpp" />
+    <ClCompile Include="BodySplitterTexture.cpp" />
+    <ClCompile Include="RSPolygon.cpp" />
+    <ClCompile Include="SerialCom.cpp" />
+    <ClCompile Include="SerialPort.cpp" />
+    <ClCompile Include="Settings.cpp" />
+    <ClCompile Include="Slicer.cpp" />
+    <ClCompile Include="SupportAnalyzer.cpp" />
+    <ClCompile Include="SupportGCodeVisualizer.cpp" />
+    <ClCompile Include="SupportManager.cpp" />
+    <ClCompile Include="SupportMesh.cpp" />
+    <ClCompile Include="SupportTower.cpp" />
+    <ClCompile Include="Surface.cpp" />
+    <ClCompile Include="TestPrint.cpp" />
+    <ClCompile Include="ToolColourWriter.cpp" />
+    <ClCompile Include="Triangle.cpp" />
+    <ClCompile Include="UserMesh.cpp" />
+    <ClCompile Include="Vertex.cpp" />
+    <ClCompile Include="View3DPane.cpp" />
+    <ClCompile Include="wxImagePanel.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AABoundingBox.h" />
+    <ClInclude Include="AboutDialog.h" />
+    <ClInclude Include="AboutDialogOverride.h" />
+    <ClInclude Include="CameraControl.h" />
+    <ClInclude Include="ClipperLib\RoVaclipper.hpp" />
+    <ClInclude Include="CoasterPrint.h" />
+    <ClInclude Include="colour.h" />
+    <ClInclude Include="ColourAdjustDialog.h" />
+    <ClInclude Include="ColourAdjustWindow.h" />
+    <ClInclude Include="colourGrid.h" />
+    <ClInclude Include="colourSubstitionWX.h" />
+    <ClInclude Include="CompatForm.h" />
+    <ClInclude Include="controlPanel.h" />
+    <ClInclude Include="CSGJS.h" />
+    <ClInclude Include="defaultSettings.h" />
+    <ClInclude Include="EULA.h" />
+    <ClInclude Include="EULADialog.h" />
+    <ClInclude Include="EULAOverride.h" />
+    <ClInclude Include="gCodeControlWindow.h" />
+    <ClInclude Include="Dialogs.h" />
+    <ClInclude Include="FilamentUsageCounter.h" />
+    <ClInclude Include="GCodeSender.h" />
+    <ClInclude Include="GCodeViewPane.h" />
+    <ClInclude Include="GCodeVisualizer.h" />
+    <ClInclude Include="GCodeVisualizerWX.h" />
+    <ClInclude Include="GCodeWriter.h" />
+    <ClInclude Include="Geometry.h" />
+    <ClInclude Include="GridView.h" />
+    <ClInclude Include="iDrawable.h" />
+    <ClInclude Include="images\rsimages.h" />
+    <ClInclude Include="images\splashscreen.h" />
+    <ClInclude Include="Infill.h" />
+    <ClInclude Include="IslandWriter.h" />
+    <ClInclude Include="iSlicable.h" />
+    <ClInclude Include="Layer.h" />
+    <ClInclude Include="Line.h" />
+    <ClInclude Include="LineToLoopSolver.h" />
+    <ClInclude Include="machineControl.h" />
+    <ClInclude Include="MainFrame.h" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="minizip\crypt.h" />
+    <ClInclude Include="minizip\ioapi.h" />
+    <ClInclude Include="minizip\iowin32.h" />
+    <ClInclude Include="minizip\mztools.h" />
+    <ClInclude Include="minizip\unzip.h" />
+    <ClInclude Include="minizip\zip.h" />
+    <ClInclude Include="ModelPropPanel.h" />
+    <ClInclude Include="ModelViewPane.h" />
+    <ClInclude Include="MotionPlanner.h" />
+    <ClInclude Include="MovementWriter.h" />
+    <ClInclude Include="newSettings.h" />
+    <ClInclude Include="objectControl.h" />
+    <ClInclude Include="ObjImporter.h" />
+    <ClInclude Include="OpenglExt.h" />
+    <ClInclude Include="PaintableTexture.h" />
+    <ClInclude Include="PaintViewPane.h" />
+    <ClInclude Include="Perimeter.h" />
+    <ClInclude Include="PrimeTowerHandler.h" />
+    <ClInclude Include="PrintBed.h" />
+    <ClInclude Include="PrintBedPackage.h" />
+    <ClInclude Include="PrintPathPlanner.h" />
+    <ClInclude Include="PrintTimeEstimator.h" />
+    <ClInclude Include="PropPanel.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Rova5Compat.h" />
+    <ClInclude Include="RovaSettings.h" />
+    <ClInclude Include="BodySplitterTexture.h" />
+    <ClInclude Include="RSPolygon.h" />
+    <ClInclude Include="SerialCom.h" />
+    <ClInclude Include="SerialPort.h" />
+    <ClInclude Include="Settings.h" />
+    <ClInclude Include="Singleton.h" />
+    <ClInclude Include="Slicer.h" />
+    <ClInclude Include="SupportAnalyzer.h" />
+    <ClInclude Include="SupportGCodeVisualizer.h" />
+    <ClInclude Include="SupportManager.h" />
+    <ClInclude Include="SupportMesh.h" />
+    <ClInclude Include="SupportTower.h" />
+    <ClInclude Include="Surface.h" />
+    <ClInclude Include="TestPrint.h" />
+    <ClInclude Include="ThreadPool\ThreadPool.h" />
+    <ClInclude Include="tinyobjloader\tiny_obj_loader.h" />
+    <ClInclude Include="ToolColourWriter.h" />
+    <ClInclude Include="Triangle.h" />
+    <ClInclude Include="UserMesh.h" />
+    <ClInclude Include="Vertex.h" />
+    <ClInclude Include="View3DPane.h" />
+    <ClInclude Include="wxImagePanel.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Steve%27s Testing\BodySplitter_current_version\BodySplitter\BodySplitter\ClassDiagram.cd" />
+    <None Include="..\PrintControl.fbp" />
+    <None Include="..\SettingsForm.fbp" />
+    <None Include="GCodeSettings.ini" />
+    <None Include="SliceSettings.ini" />
+    <None Include="UISettings.ini" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BodySplitter.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="App Icon 64x64.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,5 +1,9 @@
+/BodySplitter_CodeBase/.vs
+
 # Prerequisites
 *.d
+*.log
+*.txt
 
 # Compiled Object files
 *.slo

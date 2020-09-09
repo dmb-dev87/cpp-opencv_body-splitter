@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CMD-Release|x64'">
+    <LocalDebuggerCommandArguments>/v /x true /p "C:\BodySplitter\p.gcode" /i  "C:\BodySplitter\Cat.obj" /s "C:\BodySplitter\SliceSettings.ini"  /m "C:\BodySplitter\m.gcode" --threadCount=1 &gt; log.txt</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>..\..\..\Bunny</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CMD-Debug|x64'">
+    <LocalDebuggerCommandArguments>/x /v /i  C:\temp\BodySplitter\ww_25p.rova  /s c:/temp/BodySplitter/SliceSettings.ini   /o c:\temp\BodySplitter\output2.txt --threadCount=1 </LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>c:\temp\BodySplitter</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>

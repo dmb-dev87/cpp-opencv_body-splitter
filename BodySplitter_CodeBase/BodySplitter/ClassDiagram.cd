@@ -1,0 +1,1728 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="RoVaClipperLib::Int128" Collapsed="true">
+    <Position X="36.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAACQAAAAAAAAAAQAAgAAAAQAA=</HashCode>
+      <FileName>ClipperLib\RoVaclipper.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RoVaClipperLib::PolyNode" Collapsed="true">
+    <Position X="45.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAIEIAAAAAISAEAIAAgAAIAgAEAAAABAAg=</HashCode>
+      <FileName>ClipperLib\RoVaclipper.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RoVaClipperLib::Clipper" Collapsed="true">
+    <Position X="18.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ggAgoI40CCAjADUAcAAwNAQQCAkxEDoClNgQAEIAAGE=</HashCode>
+      <FileName>ClipperLib\RoVaclipper.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RoVaClipperLib::ClipperOffset" Collapsed="true">
+    <Position X="40" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQCFAQAAQggAAYAIAAAAQAQAAAQgQAAAAAIQEBAAAM=</HashCode>
+      <FileName>ClipperLib\RoVaclipper.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RoVaClipperLib::PolyTree" Collapsed="true">
+    <Position X="16.25" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAQBAAAE=</HashCode>
+      <FileName>ClipperLib\RoVaclipper.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RoVaClipperLib::ClipperBase" Collapsed="true">
+    <Position X="18.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RAAgAAAAgAooJAAAAAAEAkAgQAQQCABAQAQABIBIiQQ=</HashCode>
+      <FileName>ClipperLib\RoVaclipper.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RoVaClipperLib::clipperException" Collapsed="true">
+    <Position X="38.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAiAAAAAAAAAEAA=</HashCode>
+      <FileName>ClipperLib\RoVaclipper.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lemon::GraphExtender&lt;Base&gt;">
+    <Position X="28.5" Y="1.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="lemon::GraphExtender&lt;Base&gt;::ArcIt" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\DEV\lemon-1.3.1\lemon\bits\graph_extender.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="lemon::GraphExtender&lt;Base&gt;::EdgeIt" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\DEV\lemon-1.3.1\lemon\bits\graph_extender.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Typedef Name="lemon::GraphExtender&lt;Base&gt;::Edge" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\DEV\lemon-1.3.1\lemon\bits\graph_extender.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Class Name="lemon::GraphExtender&lt;Base&gt;::InArcIt" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\DEV\lemon-1.3.1\lemon\bits\graph_extender.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Typedef Name="lemon::GraphExtender&lt;Base&gt;::Parent" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\DEV\lemon-1.3.1\lemon\bits\graph_extender.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="lemon::GraphExtender&lt;Base&gt;::Graph" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\DEV\lemon-1.3.1\lemon\bits\graph_extender.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="lemon::GraphExtender&lt;Base&gt;::ArcNotifier" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\DEV\lemon-1.3.1\lemon\bits\graph_extender.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="lemon::GraphExtender&lt;Base&gt;::NodeNotifier" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\DEV\lemon-1.3.1\lemon\bits\graph_extender.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Class Name="lemon::GraphExtender&lt;Base&gt;::IncEdgeIt" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\DEV\lemon-1.3.1\lemon\bits\graph_extender.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="lemon::GraphExtender&lt;Base&gt;::EdgeMap&lt;_Value&gt;" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\DEV\lemon-1.3.1\lemon\bits\graph_extender.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Typedef Name="lemon::GraphExtender&lt;Base&gt;::EdgeNotifier" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\DEV\lemon-1.3.1\lemon\bits\graph_extender.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Class Name="lemon::GraphExtender&lt;Base&gt;::NodeMap&lt;_Value&gt;" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\DEV\lemon-1.3.1\lemon\bits\graph_extender.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="lemon::GraphExtender&lt;Base&gt;::NodeIt" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\DEV\lemon-1.3.1\lemon\bits\graph_extender.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Typedef Name="lemon::GraphExtender&lt;Base&gt;::UndirectedTag" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\DEV\lemon-1.3.1\lemon\bits\graph_extender.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Class Name="lemon::GraphExtender&lt;Base&gt;::OutArcIt" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\DEV\lemon-1.3.1\lemon\bits\graph_extender.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Typedef Name="lemon::GraphExtender&lt;Base&gt;::Arc" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\DEV\lemon-1.3.1\lemon\bits\graph_extender.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Class Name="lemon::GraphExtender&lt;Base&gt;::ArcMap&lt;_Value&gt;" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\DEV\lemon-1.3.1\lemon\bits\graph_extender.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Typedef Name="lemon::GraphExtender&lt;Base&gt;::Node" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\DEV\lemon-1.3.1\lemon\bits\graph_extender.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AEAAgAIAACAIAACAAAAIEAAAACAAEAgACKgCAAAAAgA=</HashCode>
+      <FileName>c:\DEV\lemon-1.3.1\lemon\bits\graph_extender.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lemon::ListGraphBase">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="lemon::ListGraphBase::Edge" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\DEV\lemon-1.3.1\lemon\list_graph.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Struct Name="lemon::ListGraphBase::NodeT" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\DEV\lemon-1.3.1\lemon\list_graph.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="lemon::ListGraphBase::ArcT" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\DEV\lemon-1.3.1\lemon\list_graph.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Typedef Name="lemon::ListGraphBase::Graph" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\DEV\lemon-1.3.1\lemon\list_graph.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Class Name="lemon::ListGraphBase::Node" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\DEV\lemon-1.3.1\lemon\list_graph.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="lemon::ListGraphBase::Arc" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\DEV\lemon-1.3.1\lemon\list_graph.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AEQEAAKAAAAIIEMAIRcIBAAIAAAIIGAAABoACAIAIgQ=</HashCode>
+      <FileName>c:\DEV\lemon-1.3.1\lemon\list_graph.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lemon::DigraphExtender&lt;Base&gt;">
+    <Position X="2.5" Y="2.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Typedef Name="lemon::DigraphExtender&lt;Base&gt;::Parent" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\DEV\lemon-1.3.1\lemon\bits\graph_extender.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Class Name="lemon::DigraphExtender&lt;Base&gt;::NodeMap&lt;_Value&gt;" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\DEV\lemon-1.3.1\lemon\bits\graph_extender.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="lemon::DigraphExtender&lt;Base&gt;::NodeIt" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\DEV\lemon-1.3.1\lemon\bits\graph_extender.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Typedef Name="lemon::DigraphExtender&lt;Base&gt;::Arc" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\DEV\lemon-1.3.1\lemon\bits\graph_extender.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="lemon::DigraphExtender&lt;Base&gt;::Digraph" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\DEV\lemon-1.3.1\lemon\bits\graph_extender.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="lemon::DigraphExtender&lt;Base&gt;::Node" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\DEV\lemon-1.3.1\lemon\bits\graph_extender.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Class Name="lemon::DigraphExtender&lt;Base&gt;::ArcIt" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\DEV\lemon-1.3.1\lemon\bits\graph_extender.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="lemon::DigraphExtender&lt;Base&gt;::InArcIt" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\DEV\lemon-1.3.1\lemon\bits\graph_extender.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="lemon::DigraphExtender&lt;Base&gt;::OutArcIt" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\DEV\lemon-1.3.1\lemon\bits\graph_extender.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Typedef Name="lemon::DigraphExtender&lt;Base&gt;::NodeNotifier" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\DEV\lemon-1.3.1\lemon\bits\graph_extender.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="lemon::DigraphExtender&lt;Base&gt;::ArcNotifier" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\DEV\lemon-1.3.1\lemon\bits\graph_extender.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Class Name="lemon::DigraphExtender&lt;Base&gt;::ArcMap&lt;_Value&gt;" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\DEV\lemon-1.3.1\lemon\bits\graph_extender.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AEAAAAIAACAAIACAAAAIEAIAACAAEAAAAIgCAAAAAhA=</HashCode>
+      <FileName>c:\DEV\lemon-1.3.1\lemon\bits\graph_extender.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cv::ml::DTrees">
+    <Position X="4.5" Y="2.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="cv::ml::DTrees::Node" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\opencv\build\include\opencv2\ml.hpp</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\opencv\build\include\opencv2\ml.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vertex_pair" Collapsed="true">
+    <Position X="38.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAgAAAAAAAAAAACAAAAAQAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>LineToLoopSolver.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyApp" Collapsed="true">
+    <Position X="12.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAQAAAIAAEAAAAGAAQIEwAAAAAAQAAAAA=</HashCode>
+      <FileName>main.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AABoundingBox" Collapsed="true">
+    <Position X="34.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>cAAAEAAAAAAQAAAAQAAAAAAAAAAAAAAAAEAAcAAAAAA=</HashCode>
+      <FileName>AABoundingBox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AboutDialog" Collapsed="true">
+    <Position X="8.25" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAEAAgAAAEIAAAAEAAAAAAAAAAYAAAIAACAAAAA=</HashCode>
+      <FileName>AboutDialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AboutDialogOverride" Collapsed="true">
+    <Position X="8.25" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAACAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>AboutDialogOverride.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrackBall" Collapsed="true">
+    <Position X="34.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAACCBAAQAAQAAAAAAAAAAAAAABAEAAQAAAAAg=</HashCode>
+      <FileName>CameraControl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraControl" Collapsed="true">
+    <Position X="36.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ENAAAAACERAABAAABIAQABAACQAIBEBAAAApAIBAAAA=</HashCode>
+      <FileName>CameraControl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoasterPrint" Collapsed="true">
+    <Position X="12.25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>cgAUDAgAbABAAKGIRkIEAAIAAAFnQAoAChQQcCYgYAA=</HashCode>
+      <FileName>CoasterPrint.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Colour" Collapsed="true">
+    <Position X="41.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAQCAAI4AEEhACAQQAAQAABAIAIIAAAAAABBgAASg=</HashCode>
+      <FileName>colour.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ColourAdjustDialog" Collapsed="true">
+    <Position X="0.5" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAMAMQAEFAAwACAAAAACATAAAAAAUhAggCAAyAAAEA=</HashCode>
+      <FileName>ColourAdjustDialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ColourAdjustWindow" Collapsed="true">
+    <Position X="0.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAEQAAAAACRQAAAAAAACAAAAABkAAggAAASAAAAA=</HashCode>
+      <FileName>ColourAdjustWindow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="colourSubDialog" Collapsed="true">
+    <Position X="45.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BIAACIAEEPwAAAAIBAAAAAAAYAQAQAgAAAAAAAAAAAA=</HashCode>
+      <FileName>colourSubstitionWX.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MultiExtCompat" Collapsed="true">
+    <Position X="13.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAEAAAAAAAAQAEQAAAEAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>CompatForm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="controlPanel" Collapsed="true">
+    <Position X="13.25" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>8BBFsSGAyyRAASRD0ooAQJAJASUwaCBEphjjMohoASA=</HashCode>
+      <FileName>controlPanel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DefaultSettingsDialog" Collapsed="true">
+    <Position X="47" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAEAABAAAAAAAABAAAAAAAAAgAIAAAAAAAAAA=</HashCode>
+      <FileName>defaultSettings.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EULA" Collapsed="true">
+    <Position X="16.25" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAIAYAAACAAAAAAAAghAAAAAIAAAAAABA=</HashCode>
+      <FileName>EULADialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EULAOverride" Collapsed="true">
+    <Position X="16.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAIAAAAAAAAAAAAAAgggAAAAIAAAAAAAA=</HashCode>
+      <FileName>EULAOverride.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="gCodeControlWindow" Collapsed="true">
+    <Position X="12" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAEAAAAAAYQCABAQghEAQIAABQEAAACAAQAAA=</HashCode>
+      <FileName>gCodeControlWindow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScaleDialog" Collapsed="true">
+    <Position X="45.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CBAAQAAAAAACDAAAAAgAAAAAIAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Dialogs.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RotationDialog" Collapsed="true">
+    <Position X="41.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAgAAAIAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Dialogs.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MeshControl" Collapsed="true">
+    <Position X="15.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQgAAAAAAAAEAQAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Dialogs.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilamentUsageCounter" Collapsed="true">
+    <Position X="40" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAMIAAAcAACAABABAAAAAAAAAAAAAAIIAAAAAQAAAIA=</HashCode>
+      <FileName>FilamentUsageCounter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GCodeViewPane" Collapsed="true">
+    <Position X="15" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAIIAAAAAAgAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>GCodeViewPane.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GCodeVisualizer" Collapsed="true">
+    <Position X="7.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iwIAAAAAACAAAAGkQAIEAAAAAAUWBAAFAIAhBAGBgCA=</HashCode>
+      <FileName>GCodeVisualizer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="gCodeWXPanel" Collapsed="true">
+    <Position X="8" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEEDAIAAZRAAAAQgAAAAQgAAGAAIIDAQAAAA=</HashCode>
+      <FileName>GCodeVisualizerWX.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GCodeWriter" Collapsed="true">
+    <Position X="43.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>asAEa6tKEMzCALsTQlINFKQQgAFEgWAUJCs5B8twAVI=</HashCode>
+      <FileName>GCodeWriter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GridView" Collapsed="true">
+    <Position X="45.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAEAAAAAACEAAIAEAAAAAAAAAIAGACAAAAAQAA=</HashCode>
+      <FileName>GridView.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iDrawable" Collapsed="true">
+    <Position X="10" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAUDQAAauCANGCQBgqEARAABgQDIU9QCAgUACUAAAA=</HashCode>
+      <FileName>iDrawable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Infill" Collapsed="true">
+    <Position X="47" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAEAAAAAAAAAAAAAEAAAAAAAGEYAQABAAAQABM=</HashCode>
+      <FileName>Infill.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IslandWriter" Collapsed="true">
+    <Position X="38.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAABAAgAAABACAAAACAAQRAAAAIAAAAAAAAAABAA=</HashCode>
+      <FileName>IslandWriter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iSlicable" Collapsed="true">
+    <Position X="8.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>cAAAQAgA6ACAEYEFRAYMEiIAABBkRAgEAAAAcAIgcAA=</HashCode>
+      <FileName>iSlicable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Layer" Collapsed="true">
+    <Position X="40" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gVQIAAQRBAQAAAAABERIAAAgQkApQAgkgEQIBAAhwgA=</HashCode>
+      <FileName>Layer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Line" Collapsed="true">
+    <Position X="16.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ETAAAMVIJUwACogDWGICAwAAMgBAD9MUIIQBghInEAA=</HashCode>
+      <FileName>Line.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GCodeLine" Collapsed="true">
+    <Position X="16.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAAAAAAIAgAAAAAAAAAAAQQAAIAAAAAABEEAAAAA=</HashCode>
+      <FileName>Line.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LineHasher" Collapsed="true">
+    <Position X="43.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Line.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LineEqualFn" Collapsed="true">
+    <Position X="41.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Line.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LineToLoopSolver" Collapsed="true">
+    <Position X="45.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAEAACAAAAA=</HashCode>
+      <FileName>LineToLoopSolver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="machineControl" Collapsed="true">
+    <Position X="13.25" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABhsEGAwCAAQSRCABAAQoBAEGUGCCoRBhSBiIgABQA=</HashCode>
+      <FileName>machineControl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainFrame" Collapsed="true">
+    <Position X="15" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAARAAECGGAAQARmWAQVSAQQGEARgGBaAAIEJAQKAQI=</HashCode>
+      <FileName>MainFrame.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mesh" Collapsed="true">
+    <Position X="8.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>cAAFDYgRaAUAgKSERkIEAAIAAABmQAoYCQATcCZwcAE=</HashCode>
+      <FileName>Mesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModelPropPanel" Collapsed="true">
+    <Position X="5.25" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAQKABGAAEAAAExSAAQAGAURRIAACgABgAAIIAACQ=</HashCode>
+      <FileName>ModelPropPanel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModelViewPane" Collapsed="true">
+    <Position X="7.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ICAAhAgECACIWACAAEKAGEICgAgAIABBAFRAYQAAYAI=</HashCode>
+      <FileName>ModelViewPane.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotionPlanner" Collapsed="true">
+    <Position X="47" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAEAAAAAAAAAAAAAAAIAAAQAABAEAAAAAAAAAAAA=</HashCode>
+      <FileName>MotionPlanner.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovementWriter" Collapsed="true">
+    <Position X="34.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MEAAQoAKAMAAAKAAAAAIAAQAAAAACAAAJAA6AAsAAUA=</HashCode>
+      <FileName>MovementWriter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="settingsDialog" Collapsed="true">
+    <Position X="10.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/v8v4j27tbtbM/41fo39rbP1fwr/Mr2zvezTf+YHfuA=</HashCode>
+      <FileName>newSettings.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="slicableMenu" Collapsed="true">
+    <Position X="15.25" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAEAAAAEAAAAAAAAASAAAAAAQAAAQIAA=</HashCode>
+      <FileName>objectControl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjImporter" Collapsed="true">
+    <Position X="40" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kAAEAAQAAAgAABAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ObjImporter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenglExt" Collapsed="true">
+    <Position X="10.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAQAAEIAAARAAACAAAAAAAAAAgAAA=</HashCode>
+      <FileName>OpenglExt.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PaintableTexture" Collapsed="true">
+    <Position X="41.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>PaintableTexture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PaintViewPane" Collapsed="true">
+    <Position X="5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAABoAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PaintViewPane.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Perimeter" Collapsed="true">
+    <Position X="43.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADCIgAAMIQAABAxAQAAAAEIAEAgQgQlYIAFCJQAAAAA=</HashCode>
+      <FileName>Perimeter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InnerPerims" Collapsed="true">
+    <Position X="34.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAKAoAAAAAAQAAEAIAEAAAAgACiAAIgAEAAAYAAAAg=</HashCode>
+      <FileName>Perimeter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrimeTower" Collapsed="true">
+    <Position X="47" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAACAAAABAAQAAAAAAAAAAIAIAEAAAAQQAAAEA=</HashCode>
+      <FileName>PrimeTowerHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrimeTowerHandler" Collapsed="true">
+    <Position X="19.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAIEAIAQCAQgACAAAAAAAAAAACAUAABQAAAAAAA=</HashCode>
+      <FileName>PrimeTowerHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrintBed" Collapsed="true">
+    <Position X="21.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAEAAACACQQCgAEgiFgUADnKAAABQAIEAnQoACEA1QQ=</HashCode>
+      <FileName>PrintBed.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrintBedPackageExporter" Collapsed="true">
+    <Position X="34.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BACAAAQAAAABCIAAIAABIABAAAAAAACAAAEAAAEAACE=</HashCode>
+      <FileName>PrintBedPackage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrintBedPackageImporter" Collapsed="true">
+    <Position X="36.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAChAIAABAgAAAAAAECAAAAABAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>PrintBedPackage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrintPathPlanner" Collapsed="true">
+    <Position X="38.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>PrintPathPlanner.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrintTimeEstimator" Collapsed="true">
+    <Position X="40" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAgEAAAAAAAAAABAACAAAAgAAAAAAABBIAgAAAA=</HashCode>
+      <FileName>PrintTimeEstimator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PropertiesPanel" Collapsed="true">
+    <Position X="5.25" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACECwKBBCAEMAAAghCQAVAXAAZRIBACiABgYAEKAAAY=</HashCode>
+      <FileName>PropPanel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rova5Compat" Collapsed="true">
+    <Position X="13.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAABABAEAAAA=</HashCode>
+      <FileName>Rova5Compat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RovaSettings" Collapsed="true">
+    <Position X="10.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKACAKwBBAIBAcGgAEAAJIIBCQQYoKEAAMNABEABAEA=</HashCode>
+      <FileName>RovaSettings.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BodySplitterTexture" Collapsed="true">
+    <Position X="10.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KFYRiAUEBgRgMQEAARDAAAREIAADBwEAURBAACCEAiA=</HashCode>
+      <FileName>BodySplitterTexture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoasterPrintTexture" Collapsed="true">
+    <Position X="10.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAghAAAAAAAAAAAAAAAAAAAgAAAAQAAAAEAAg=</HashCode>
+      <FileName>BodySplitterTexture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSPolygon" Collapsed="true">
+    <Position X="43.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QDAAAAAEIAAAAARAABIAAAIACAAAQAAYIQgBADAAAAE=</HashCode>
+      <FileName>RSPolygon.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExRSPolygon" Collapsed="true">
+    <Position X="38.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIACAAAABAAAAABAAoUAAgIkCgAAAg8MAQgFCBUgAAA=</HashCode>
+      <FileName>RSPolygon.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SerialCom" Collapsed="true">
+    <Position X="17.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAABAAAAAAAAAAAAAAAAIAAAghAAEAAA=</HashCode>
+      <FileName>SerialCom.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SerialPort" Collapsed="true">
+    <Position X="47" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAgACAAAAAACACBgAAQAAAAQABABkAAABgAAAEoAA=</HashCode>
+      <FileName>SerialPort.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SettingValues" Collapsed="true">
+    <Position X="34.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAQAABAAAAIAAAgIAAAAACAAAAAAAAAgABAAAAAAAA=</HashCode>
+      <FileName>Settings.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Settings" Collapsed="true">
+    <Position X="24" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAUEAACqIEgBAABgAAAIAgAIUACEAAAwBIEAEAAAlA=</HashCode>
+      <FileName>Settings.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Singleton&lt;T&gt;" Collapsed="true">
+    <Position X="15" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABEAAAABAAAACQAAABAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Singleton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slicer" Collapsed="true">
+    <Position X="36.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iEAEAAAAAAAAAEAAAAAADAAAAAAgAAAAAMAAAACCYAA=</HashCode>
+      <FileName>Slicer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SupportAnalyzer" Collapsed="true">
+    <Position X="38.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAEAAAABAAAAICAAAAAAAAAAABACAAAQAAAAAAgAA=</HashCode>
+      <FileName>SupportAnalyzer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SupportGCodeVisualizer" Collapsed="true">
+    <Position X="7.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAACAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>SupportGCodeVisualizer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SupportManager" Collapsed="true">
+    <Position X="40" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAICQQEAAAQgQEBQgIGwQIAQRABAEAgIIAAIA=</HashCode>
+      <FileName>SupportManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SupportMesh" Collapsed="true">
+    <Position X="7.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>cAAUDIgAAAACCCQABAAEEAIAACAmRAMECAAQcCYgQAA=</HashCode>
+      <FileName>SupportMesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SupportTower" Collapsed="true">
+    <Position X="41.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAAIAAAAAAABAAApABIABAAAAIAAACCEAARgMAAAoCA=</HashCode>
+      <FileName>SupportTower.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Surface" Collapsed="true">
+    <Position X="43.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAEQAEAACAQABAAAAAAAgA=</HashCode>
+      <FileName>Surface.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestPrint" Collapsed="true">
+    <Position X="5.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>cCAAAAAAaAAAAMAAQEIEAAIAAAAkAIwAAAAAcAAAYAA=</HashCode>
+      <FileName>TestPrint.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClosingCircle" Collapsed="true">
+    <Position X="5.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAABQAAAAAAAAAIACAIAAAAgAAgAABAAAAAAAAA=</HashCode>
+      <FileName>TestPrint.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThreadPool" Collapsed="true">
+    <Position X="45.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIACAAAAAAAAAAAAAAIAAAAgACgAAABAAAAAQAA=</HashCode>
+      <FileName>ThreadPool\ThreadPool.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ToolColourWriter" Collapsed="true">
+    <Position X="47" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAwIACCAAAAAAAAAAAAAAAAAQJAACAAAACAA=</HashCode>
+      <FileName>ToolColourWriter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Triangle" Collapsed="true">
+    <Position X="36.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAIQAAAAAABBAAAAgAAAAEBBFAAAAAUAQABIgA=</HashCode>
+      <FileName>Triangle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UserMesh" Collapsed="true">
+    <Position X="10" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAEAIIARBIAiAWFFkoAAYACAQQAAAFAAEAAEEASUAQ=</HashCode>
+      <FileName>UserMesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vertex_t&lt;T&gt;" Collapsed="true">
+    <Position X="40" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAiAABAAACAAACAQAAgAAAAAYAAhJggQAAAAA=</HashCode>
+      <FileName>Vertex.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vertex2D" Collapsed="true">
+    <Position X="41.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAQAAAAQAAAIAAABgAQAAAAA=</HashCode>
+      <FileName>Vertex.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="View3DPane" Collapsed="true">
+    <Position X="5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEAAAAAAAAEMEAAAAAIAAggYQAAAYgAAAwAAIAASIAA=</HashCode>
+      <FileName>View3DPane.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="wxImagePanel" Collapsed="true">
+    <Position X="43.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABQAAQAAAEAAAAACAAAAAAAASAAA=</HashCode>
+      <FileName>wxImagePanel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BodySplitter::colourGrid" Collapsed="true">
+    <Position X="43.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MPAHgwkEgIoBAABQAAADAJAASAACQAAAAgABMDSCk7k=</HashCode>
+      <FileName>colourGrid.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BodySplitter::GCodeSender" Collapsed="true">
+    <Position X="41.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAAAAAAAAAADAigAAAwiEAiMJAAQAApABpEAAEICA=</HashCode>
+      <FileName>GCodeSender.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="tinyobj::MaterialReader" Collapsed="true">
+    <Position X="7.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAEAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>tinyobjloader\tiny_obj_loader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="tinyobj::MaterialFileReader" Collapsed="true">
+    <Position X="7.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAEAAAAAAAAAIAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>tinyobjloader\tiny_obj_loader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="RoVaClipperLib::TEdge" Collapsed="true">
+    <Position X="47" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgKEEAAABACAoAAAgAEABAAACAYIAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClipperLib\RoVaclipper.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="RoVaClipperLib::IntersectNode" Collapsed="true">
+    <Position X="41.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>ClipperLib\RoVaclipper.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="RoVaClipperLib::LocalMinimum" Collapsed="true">
+    <Position X="36.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAIAA=</HashCode>
+      <FileName>ClipperLib\RoVaclipper.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="RoVaClipperLib::OutPt" Collapsed="true">
+    <Position X="41.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgACAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClipperLib\RoVaclipper.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="RoVaClipperLib::OutRec" Collapsed="true">
+    <Position X="43.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAACAAABAAABAAAAAAAAAAAAYAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClipperLib\RoVaclipper.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="RoVaClipperLib::Join" Collapsed="true">
+    <Position X="47" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAEAAAAAAA=</HashCode>
+      <FileName>ClipperLib\RoVaclipper.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="RoVaClipperLib::LocMinSorter" Collapsed="true">
+    <Position X="38.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClipperLib\RoVaclipper.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="RoVaClipperLib::IntPoint" Collapsed="true">
+    <Position X="43.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAE=</HashCode>
+      <FileName>ClipperLib\RoVaclipper.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="RoVaClipperLib::DoublePoint" Collapsed="true">
+    <Position X="43.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAA=</HashCode>
+      <FileName>ClipperLib\RoVaclipper.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="RoVaClipperLib::IntRect" Collapsed="true">
+    <Position X="45.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAgAAAAIAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>ClipperLib\RoVaclipper.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="dtColourRegionOfSplitLines" Collapsed="true">
+    <Position X="32.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAABAACAAAEIEgAAAAAAAAgAAAAA=</HashCode>
+      <FileName>colourGrid.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PolyNode" Collapsed="true">
+    <Position X="16.25" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAARgAAAIAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Perimeter.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0053_1" Collapsed="true">
+    <Position X="13.25" Y="32.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>minizip\iowin32.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="unz_file_info_internal_s" Collapsed="true">
+    <Position X="28.25" Y="31.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>minizip\unzip.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0057_1" Collapsed="true">
+    <Position X="24.25" Y="31.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAhAAgAIAAAgBgAAAAAAAEAAAAAEAACAiAgEAAAAQAA=</HashCode>
+      <FileName>minizip\unzip.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0057_2" Collapsed="true">
+    <Position X="20.25" Y="31.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gACAgAAgAEAoAgAAAAAACgAAAAIEAAAAAAAAEIiAAAA=</HashCode>
+      <FileName>minizip\unzip.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="linkedlist_datablock_internal_s" Collapsed="true">
+    <Position X="9.25" Y="30.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAACAAAAAAAACAAAQCAAAAAA=</HashCode>
+      <FileName>minizip\zip.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="linkedlist_data_s" Collapsed="true">
+    <Position X="5.25" Y="30.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>minizip\zip.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0059_1" Collapsed="true">
+    <Position X="28.25" Y="26.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIgAABEIAAAIADAAAIAAAQAgAAIAAgAACBAEAAAAAAA=</HashCode>
+      <FileName>minizip\zip.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0059_2" Collapsed="true">
+    <Position X="28.25" Y="23.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAkIAAACAAQAAAAAAAUQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>minizip\zip.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="csgjs_vector" Collapsed="true">
+    <Position X="40" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAABgAQAAAAA=</HashCode>
+      <FileName>CSGJS.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="csgjs_vertex" Collapsed="true">
+    <Position X="41.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIgAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>CSGJS.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="csgjs_model" Collapsed="true">
+    <Position X="34.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CSGJS.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="csgjs_plane" Collapsed="true">
+    <Position X="36.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAQAEAAgAAAAAAAAAAAgAAAAAAQA=</HashCode>
+      <FileName>CSGJS.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="csgjs_polygon" Collapsed="true">
+    <Position X="38.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAQAhAAAAAAAAAAAAA=</HashCode>
+      <FileName>CSGJS.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="csgjs_csgnode" Collapsed="true">
+    <Position X="1.25" Y="30.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAABBAEAAAAgAAAIAAACEAAgAIAIAAEAAAAAA=</HashCode>
+      <FileName>CSGJS.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="zlib_filefunc_def_s" Collapsed="true">
+    <Position X="16.25" Y="27.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAwAAAAARAAAAAAAAACAAAAAAAgBAAAAAAIAAAAAA=</HashCode>
+      <FileName>minizip\ioapi.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TagunzFile__" Collapsed="true">
+    <Position X="22.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>minizip\unzip.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tm_unz_s" Collapsed="true">
+    <Position X="5.25" Y="27.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAACACAAAAAAAAgAAAAAAAQAAAIAAAAAAAAAA=</HashCode>
+      <FileName>minizip\unzip.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="unz_global_info_s" Collapsed="true">
+    <Position X="24.25" Y="26.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>minizip\unzip.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="unz_file_info_s" Collapsed="true">
+    <Position X="20.25" Y="26.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gEAAgCAAAACAAAAAAIAEAEAYAAIAAgAAAAAAAIAAEIA=</HashCode>
+      <FileName>minizip\unzip.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="unz_file_pos_s" Collapsed="true">
+    <Position X="24.25" Y="23.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>minizip\unzip.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TagzipFile__" Collapsed="true">
+    <Position X="1.25" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>minizip\zip.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tm_zip_s" Collapsed="true">
+    <Position X="12.25" Y="25.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAACACAAAAAAAAgAAAAAAAQAAAIAAAAAAAAAA=</HashCode>
+      <FileName>minizip\zip.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_005a_1" Collapsed="true">
+    <Position X="1.25" Y="25.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAIAAEAA=</HashCode>
+      <FileName>minizip\zip.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="std::hash&lt;vertex_pair&gt;" Collapsed="true">
+    <Position X="36.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LineToLoopSolver.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="std::hash&lt;Colour&gt;" Collapsed="true">
+    <Position X="34.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>colour.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="std::hash&lt;vertex_t&lt;T&gt;&gt;" Collapsed="true">
+    <Position X="40" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Vertex.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="std::hash&lt;Vertex2D&gt;" Collapsed="true">
+    <Position X="38.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Vertex.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="BodySplitter::gridColour" Collapsed="true">
+    <Position X="45.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAgAAAQAAAAAAAAAIAQABAAAAAAA=</HashCode>
+      <FileName>colourGrid.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="BodySplitter::gridPix" Collapsed="true">
+    <Position X="47" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAgIEBAAABAAAAAABAECAABCAAAAQABEAAAJAAAAAAA=</HashCode>
+      <FileName>colourGrid.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="BodySplitter::listPoint" Collapsed="true">
+    <Position X="34.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>colourGrid.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="BodySplitter::vert2DPoly" Collapsed="true">
+    <Position X="36.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Geometry.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="BodySplitter::vert2DPath" Collapsed="true">
+    <Position X="34.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Geometry.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tinyobj::__unnamed_struct_009e_1" Collapsed="true">
+    <Position X="22.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QCEBAAEEIgKQCEAIBAACQAIAAAgEAAiAgABCQCBAAQA=</HashCode>
+      <FileName>tinyobjloader\tiny_obj_loader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tinyobj::__unnamed_struct_009e_2" Collapsed="true">
+    <Position X="22.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAABAAAAAAEAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>tinyobjloader\tiny_obj_loader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tinyobj::__unnamed_struct_009e_3" Collapsed="true">
+    <Position X="16.25" Y="22.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAgAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>tinyobjloader\tiny_obj_loader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tinyobj::__unnamed_struct_009e_4" Collapsed="true">
+    <Position X="8.25" Y="22.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAgABAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>tinyobjloader\tiny_obj_loader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tinyobj::__unnamed_struct_009e_5" Collapsed="true">
+    <Position X="20.25" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>tinyobjloader\tiny_obj_loader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tinyobj::__unnamed_struct_009e_6" Collapsed="true">
+    <Position X="20.25" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAQAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>tinyobjloader\tiny_obj_loader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tinyobj::callback_t_" Collapsed="true">
+    <Position X="12.25" Y="20.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAgAAAAQkAACAAAAAAAAAAAAiAQA=</HashCode>
+      <FileName>tinyobjloader\tiny_obj_loader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tinyobj::vertex_index" Collapsed="true">
+    <Position X="38.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAACAAAgIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>tinyobjloader\tiny_obj_loader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tinyobj::tag_sizes" Collapsed="true">
+    <Position X="45.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAABAgAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>tinyobjloader\tiny_obj_loader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tinyobj::obj_shape" Collapsed="true">
+    <Position X="40" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAABABAAAAAAAAA=</HashCode>
+      <FileName>tinyobjloader\tiny_obj_loader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="dtColourRegionOfSplitLinesTag" Collapsed="true">
+    <Position X="32.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>colourGrid.cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Graph" Collapsed="true">
+    <Position X="41.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LineToLoopSolver.cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LengthMap" Collapsed="true">
+    <Position X="47" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LineToLoopSolver.cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="WIN32FILE_IOWIN" Collapsed="true">
+    <Position X="13.25" Y="30.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>minizip\iowin32.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="unz_file_info_internal" Collapsed="true">
+    <Position X="28.25" Y="33.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>minizip\unzip.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="file_in_zip_read_info_s" Collapsed="true">
+    <Position X="24.25" Y="33.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>minizip\unzip.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="unz_s" Collapsed="true">
+    <Position X="20.25" Y="33.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>minizip\unzip.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="linkedlist_datablock_internal" Collapsed="true">
+    <Position X="9.25" Y="28.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>minizip\zip.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="linkedlist_data" Collapsed="true">
+    <Position X="5.25" Y="32.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>minizip\zip.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="curfile_info" Collapsed="true">
+    <Position X="28.25" Y="28.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>minizip\zip.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="zip_internal" Collapsed="true">
+    <Position X="28.25" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>minizip\zip.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="RoVaClipperLib::cInt" Collapsed="true">
+    <Position X="34.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClipperLib\RoVaclipper.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="RoVaClipperLib::long64" Collapsed="true">
+    <Position X="38.25" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClipperLib\RoVaclipper.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="RoVaClipperLib::ulong64" Collapsed="true">
+    <Position X="36.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClipperLib\RoVaclipper.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="RoVaClipperLib::Path" Collapsed="true">
+    <Position X="40" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClipperLib\RoVaclipper.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="RoVaClipperLib::Paths" Collapsed="true">
+    <Position X="41.75" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClipperLib\RoVaclipper.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="RoVaClipperLib::ZFillCallback" Collapsed="true">
+    <Position X="38.25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClipperLib\RoVaclipper.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="RoVaClipperLib::PolyNodes" Collapsed="true">
+    <Position X="43.5" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClipperLib\RoVaclipper.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="RoVaClipperLib::PolyOutList" Collapsed="true">
+    <Position X="45.25" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClipperLib\RoVaclipper.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="RoVaClipperLib::EdgeList" Collapsed="true">
+    <Position X="36.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClipperLib\RoVaclipper.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="RoVaClipperLib::JoinList" Collapsed="true">
+    <Position X="45.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClipperLib\RoVaclipper.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="RoVaClipperLib::IntersectList" Collapsed="true">
+    <Position X="43.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClipperLib\RoVaclipper.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="csg_function" Collapsed="true">
+    <Position X="1.25" Y="28.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CSGJS.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="linePair" Collapsed="true">
+    <Position X="34.75" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GCodeWriter.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Lines" Collapsed="true">
+    <Position X="36.5" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geometry.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="GLuint" Collapsed="true">
+    <Position X="40" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mesh.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="GLfloat" Collapsed="true">
+    <Position X="38.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mesh.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="tinyobj::material_t" Collapsed="true">
+    <Position X="25.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>tinyobjloader\tiny_obj_loader.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="tinyobj::tag_t" Collapsed="true">
+    <Position X="22.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>tinyobjloader\tiny_obj_loader.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="tinyobj::index_t" Collapsed="true">
+    <Position X="16.25" Y="24.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>tinyobjloader\tiny_obj_loader.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="tinyobj::mesh_t" Collapsed="true">
+    <Position X="8.25" Y="24.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>tinyobjloader\tiny_obj_loader.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="tinyobj::shape_t" Collapsed="true">
+    <Position X="20.25" Y="23.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>tinyobjloader\tiny_obj_loader.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="tinyobj::attrib_t" Collapsed="true">
+    <Position X="20.25" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>tinyobjloader\tiny_obj_loader.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="tinyobj::callback_t" Collapsed="true">
+    <Position X="12.25" Y="22.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>tinyobjloader\tiny_obj_loader.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="uint" Collapsed="true">
+    <Position X="34.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Triangle.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Triangles" Collapsed="true">
+    <Position X="47" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Triangle.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="zlib_filefunc_def" Collapsed="true">
+    <Position X="16.25" Y="29.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>minizip\ioapi.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="unzFile__" Collapsed="true">
+    <Position X="19.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>minizip\unzip.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="unzFile" Collapsed="true">
+    <Position X="19.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>minizip\unzip.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="tm_unz" Collapsed="true">
+    <Position X="5.25" Y="25.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>minizip\unzip.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="unz_global_info" Collapsed="true">
+    <Position X="24.25" Y="28.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>minizip\unzip.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="unz_file_info" Collapsed="true">
+    <Position X="20.25" Y="28.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>minizip\unzip.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="unz_file_pos" Collapsed="true">
+    <Position X="24.25" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>minizip\unzip.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="zipFile__" Collapsed="true">
+    <Position X="4.25" Y="20.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>minizip\zip.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="zipFile" Collapsed="true">
+    <Position X="4.25" Y="22.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>minizip\zip.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="tm_zip" Collapsed="true">
+    <Position X="12.25" Y="27.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>minizip\zip.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="zip_fileinfo" Collapsed="true">
+    <Position X="1.25" Y="23.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>minizip\zip.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="zipcharpc" Collapsed="true">
+    <Position X="40" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>minizip\zip.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="RoVaClipperLib::Direction" Collapsed="true">
+    <Position X="40" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClipperLib\RoVaclipper.cpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RoVaClipperLib::NodeType" Collapsed="true">
+    <Position X="34.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>ClipperLib\RoVaclipper.cpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RoVaClipperLib::ClipType" Collapsed="true">
+    <Position X="38.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAQAAAAAAEAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>ClipperLib\RoVaclipper.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RoVaClipperLib::PolyType" Collapsed="true">
+    <Position X="38.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>ClipperLib\RoVaclipper.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RoVaClipperLib::PolyFillType" Collapsed="true">
+    <Position X="36.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgBAAAAAAAAAAAAAgAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>ClipperLib\RoVaclipper.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RoVaClipperLib::InitOptions" Collapsed="true">
+    <Position X="45.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAIA=</HashCode>
+      <FileName>ClipperLib\RoVaclipper.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RoVaClipperLib::JoinType" Collapsed="true">
+    <Position X="47" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAACAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>ClipperLib\RoVaclipper.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RoVaClipperLib::EndType" Collapsed="true">
+    <Position X="43.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAgAAAAAAAAAAAAAAAAABAIAAA=</HashCode>
+      <FileName>ClipperLib\RoVaclipper.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RoVaClipperLib::EdgeSide" Collapsed="true">
+    <Position X="41.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAEAAAAAAA=</HashCode>
+      <FileName>ClipperLib\RoVaclipper.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_004d_1" Collapsed="true">
+    <Position X="34.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAAAAEAAAQBEBQEAABAAkAQBCAgkCCJAAEAAIIAEE=</HashCode>
+      <FileName>MainFrame.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="StartPoint" Collapsed="true">
+    <Position X="40" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Settings.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BodySplitter::AXIS" Collapsed="true">
+    <Position X="36.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAEAACAAA=</HashCode>
+      <FileName>Geometry.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
